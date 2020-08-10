@@ -4,7 +4,7 @@ import './chart-style.css'
 
 export const TimeLine = () => {
 const columns = [
-  { type: "string", id: "president" },
+  { type: "string", id: "Fase" },
   { type: "date", id: "Start" },
   { type: "date", id: "End" }
 ];
