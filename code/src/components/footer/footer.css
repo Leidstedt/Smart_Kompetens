@@ -1,0 +1,13 @@
+.footer-style {
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    background-color:rgb(23,36,61);
+    color: white;
+    justify-content: center;
+    padding: 10px 40px 50px 0px;
+    align-items: flex-end;
+    font-size: 14px;
+    width: 100%;
+    flex-shrink: 0; 
+}
