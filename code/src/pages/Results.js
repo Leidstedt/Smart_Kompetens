@@ -1,7 +1,7 @@
-import React from 'react'
-import { GenderChart } from 'components/charts/GenderChart'
+import React from 'react';
+import { GenderChart } from 'components/charts/GenderChart';
 import { CategoryChart } from 'components/charts/CategoryChart';
-import 'components/cards/card-style.css'
+import 'components/cards/card-style.css';
 import { AgeChart } from 'components/charts/AgeChart'
 import { SummaryCard } from 'components/cards/SummaryCard'
 import { DropDown } from 'components/dropdown/DropDown';

@@ -1,6 +1,7 @@
 import React from 'react'
 import 'components/cards/card-style.css'
 import { TimeLine } from 'components/charts/TimeLine';
+import { TableChart } from 'components/charts/TableChart';
 
 export const AboutPage  = () => {
     return (
@@ -24,6 +25,9 @@ export const AboutPage  = () => {
                     </section>
                     <section className="image-card">
                             <TimeLine />
+                    </section>
+                    <section className="image-card">
+                            <TableChart />
                     </section>
                 </section>
         </article>  

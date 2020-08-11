@@ -7,6 +7,15 @@
     height: 500px;  
 }
 
+.table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #f2f2f2;
+    text-align: left;
+    padding: 8px;
+  }
+  
+
 /* MEDIA QUERIES */
 @media (max-width: 667px) {
     .chart-wrapper {
