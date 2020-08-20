@@ -1,7 +1,7 @@
 import React from 'react'
 import 'components/cards/card-style.css'
 import { TimeLine } from 'components/charts/TimeLine';
-import { TableChart } from 'components/charts/TableChart';
+import { ResponsiveTableAge } from 'components/table/ResponsiveTableAge';
 
 export const AboutPage  = () => {
     return (
@@ -27,7 +27,8 @@ export const AboutPage  = () => {
                             <TimeLine />
                     </section>
                     <section className="image-card">
-                            <TableChart />
+                        
+                            <ResponsiveTableAge />
                     </section>
                 </section>
         </article>  
