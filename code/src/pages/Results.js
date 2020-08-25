@@ -5,6 +5,10 @@ import 'components/cards/card-style.css';
 import { AgeChart } from 'components/charts/AgeChart'
 import { SummaryCard } from 'components/cards/SummaryCard'
 import { DropDown } from 'components/dropdown/DropDown';
+import { ResponsiveTableGender } from 'components/table/ResponsiveTableGender';
+import { ResponsiveTableAge } from 'components/table/ResponsiveTableAge';
+import { ResponsiveTableEducationHours } from 'components/table/ResponsiveTableEducationHours';
+
 
 
 
@@ -31,7 +35,8 @@ export const Results  = () => {
                 <section className="card-wrapper">
                     <section className="card">
                         <h1>Könsfördelning</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>                
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <ResponsiveTableGender />                
                     </section>
                     <section className="image-card">
                         <GenderChart />
@@ -39,19 +44,21 @@ export const Results  = () => {
                 </section>
                 <section className="card-wrapper">
                     <section className="card">
-                        <h1>Results</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>                
+                        <h1>Åldersförddelning</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> 
+                        <ResponsiveTableAge />               
                     </section>
                     <section className="image-card">
                         <AgeChart />
                     </section>
                 </section>
-                <section className="card-wrapper">
-                <section className="card">
-                        <h1>Results</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>                
+                <section>
+                <section className="big-card">
+                        <h1>Utbildningstimmar</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <ResponsiveTableEducationHours />                
                     </section>
-                    <section className="image-card">
+                    <section className="bigimage-card">
                         <CategoryChart />
                     </section>
                 </section>

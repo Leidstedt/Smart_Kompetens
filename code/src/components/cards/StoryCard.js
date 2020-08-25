@@ -11,7 +11,7 @@ const Container = styled.div`
 
 const Title = styled.h1`
   margin: 0;
-  font-size: 24px;
+  font-size: 18px;
 `
 
 const SecondaryText = styled.p`
@@ -44,7 +44,7 @@ const CoverImage = styled.img`
   object-fit: cover;
   object-position: 45% 55%;
   width: 100%;
-  height: 210px;
+  height: 100%;
 `
 
 const Content = styled.div`

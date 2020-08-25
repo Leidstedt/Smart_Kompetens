@@ -3,7 +3,7 @@ import 'components/table/ResponsiveTable.css';
 
 
 
-export const ResponsiveTableAge = () => {
+export const ResponsiveTableGender = () => {
   
     return (
 <table>

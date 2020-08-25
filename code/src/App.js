@@ -1,7 +1,6 @@
 import React from 'react'
 import { BrowserRouter, Switch, Route } from 'react-router-dom'
 import { StartPage } from './pages/StartPage'
-import { AboutPage } from './pages/AboutPage'
 import { Results } from './pages/Results'
 import { ResultsSormland } from './pages/ResultsSormland'
 import { ResultsUppsala } from './pages/ResultsUppsala'
@@ -22,9 +21,6 @@ export const App = () => {
         <Switch>
           <Route path="/" exact>
             <StartPage />
-          </Route>
-          <Route path="/about" exact>
-            <AboutPage />
           </Route>
           <Route path="/results" exact>
             <Results />

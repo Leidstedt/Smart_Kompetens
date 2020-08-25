@@ -1,11 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import 'components/dropdown/drop-down.css'
+import { NavBar } from 'components/navbar/NavBar'
+import { NavBarResult } from 'components/navbar/NavBarResult';
 
 export const DropDown = () => (
     <section className="result-navbar-container"> 
         <div className="result-navbar"> 
-        <div className="dropdown">
+        <div class="dropdown">
                 <button className="dropbtn">Välj delprojekt ↓ </button>
                 <div className="dropdown-content">
                         <Link to="/results" exact>
@@ -31,6 +33,7 @@ export const DropDown = () => (
         </div>            
     </section>  
 )
+
 
 
 

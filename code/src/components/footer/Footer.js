@@ -4,6 +4,6 @@ import 'components/footer/footer.css'
 export const Footer = () => (
 
     <footer className= "footer-style">
-        <h3>Technigo bootcamp 2020 Elin Leidstedt</h3>
+        <img src="../../assets/logo-regionostergotland.svg" alt="Logo Region Östergötland"></img>
     </footer>
   )

@@ -6,6 +6,20 @@
     
 }
 
+.big-card {
+    width: 900px;
+    padding: 20px;
+    margin: 20px, 20px, 20px, 20px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px;
+    height: 100%;
+    background-color: white;
+    
+}
+
 .image-card {
     background-color: white;
     width: 500px;
@@ -15,6 +29,20 @@
     justify-content: center;
     padding: 20px;
 }
+
+.bigimage-card {
+    width: 900px;
+    padding: 20px;
+    margin: 20px, 20px, 20px, 20px;
+    margin: 20px;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
 
 .card-wrapper {
     display: flex;
@@ -34,21 +62,24 @@
 }
 
 .story-card-title {
-    background-color: white;
-    width: 800px;
-    padding: 20px;
-    margin: 20px, 0px, 20px, 0px;
+    width: 100%;
+    padding: 0px;
+    margin-top: -5px;
     text-align: center;
+    font-size: 25px;
+    background-color:rgb(23,36,61);
+    color: white;
     
 }
 
 .story-card-wrapper {
     display: flex;
-    align-items: flex-start;
-    justify-content: center;
+    flex-wrap: wrap;
     flex-direction: row;
-    margin: 20px;
+    align-items: center;
+    margin: 20px 350px;
     height: 100%;
+    width: 900px;
 }
 
 .summary-card-wrapper {
