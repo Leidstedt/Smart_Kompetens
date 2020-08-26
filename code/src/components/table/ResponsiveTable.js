@@ -1,5 +1,5 @@
 import React from 'react';
-import 'components/table/ResponsiveTable.css';
+import 'components/table/TableUppsala/node_modules/components/table/TableVastmanland/node_modules/components/table/TableSormland/node_modules/components/table/ResponsiveTable.css';
 
 
 

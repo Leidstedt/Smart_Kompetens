@@ -8,6 +8,7 @@ import { DropDown } from 'components/dropdown/DropDown';
 import { ResponsiveTableGender } from 'components/table/ResponsiveTableGender';
 import { ResponsiveTableAge } from 'components/table/ResponsiveTableAge';
 import { ResponsiveTableEducationHours } from 'components/table/ResponsiveTableEducationHours';
+import { ButtonRow } from 'components/dropdown/ButtonRow';
 
 
 
@@ -17,6 +18,7 @@ export const Results  = () => {
         <div>
             <article className="page-wrapper">
             <DropDown />
+            <ButtonRow />
                 <section className="card-wrapper">
                     <section className="card">
                         <h1>Sammanställt resultat för hela projektet</h1>

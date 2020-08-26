@@ -1,5 +1,5 @@
 .result-navbar-container {
-  display: flex;
+  display: none;
   flex-direction: row;
   height: 50px;
   background-color: rgb(23,36,61);
@@ -7,8 +7,8 @@
   justify-content: flex-start;
   width: 100%;
   margin-top: -10px;
+  display: none;
 }
-
 
 .result-navbar {
   overflow: hidden;
@@ -69,4 +69,13 @@
 
 .dropdown:hover .dropdown-content {
   display: block;
+}
+
+
+
+/* MEDIA QUERIES MOBIL*/
+@media (max-width: 667px) {
+  .result-navbar-container {
+    display: inline;
+}
 }

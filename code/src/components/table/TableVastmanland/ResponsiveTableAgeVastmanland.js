@@ -1,8 +1,9 @@
 import React from 'react';
+import 'components/table/ResponsiveTable.css';
 
 
 
-export const ResponsiveTableAge = () => {
+export const ResponsiveTableAgeVastmanland = () => {
   
     return (
 <table>

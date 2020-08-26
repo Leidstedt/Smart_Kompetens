@@ -91,20 +91,20 @@
 .image-container {
     object-fit: cover;
     width: 100%;
-    padding: 30px;
+    padding: 0px;
 }
 
 /* MEDIA QUERIES MOBIL*/
 @media (max-width: 667px) {
     .card {
-        width: 360px;
+        width: 300px;
         margin-bottom: 0px; 
     }
 
     .image-card {
-        width: 400px;
+        width: 360px;
         margin-top: 0px;
-        padding: 10px;
+        padding: 5px;
         height: 100%;   
     }
     .card-wrapper {
@@ -114,4 +114,20 @@
     .story-card-wrapper {
         flex-direction: column;
     }
+
+    .bigimage-card {
+        width: 360px;
+        margin: 20px, 20px, 20px, 20px;
+        margin: 20px;
+        height: 100%;
+        padding: 5px;
+    }
+
+    
+.big-card {
+    width: 360px;
+    margin: 20px, 20px, 20px, 20px;
+ 
+    
+}
   }

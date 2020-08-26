@@ -1,8 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import 'components/dropdown/drop-down.css'
-import { NavBar } from 'components/navbar/NavBar'
-import { NavBarResult } from 'components/navbar/NavBarResult';
+
 
 export const DropDown = () => (
     <section className="result-navbar-container"> 

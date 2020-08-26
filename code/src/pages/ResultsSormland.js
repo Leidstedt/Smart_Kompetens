@@ -2,8 +2,12 @@ import React from 'react'
 import 'components/cards/card-style.css'
 import { SummaryCard } from 'components/cards/SummaryCard'
 import { DropDown } from 'components/dropdown/DropDown';
+import { ButtonRow } from 'components/dropdown/ButtonRow';
+import { ResponsiveTableGenderSormland } from 'components/table/TableSormland/ResponsiveTableGenderSormland';
 import { GenderChartSormland } from 'components/charts/ChartsSormland/GenderChartSormland';
+import { ResponsiveTableAgeSormland } from 'components/table/TableSormland/ResponsiveTableAgeSormland';
 import { AgeChartSormland } from 'components/charts/ChartsSormland/AgeChartSormland';
+import { ResponsiveTableEducationHoursSormland } from 'components/table/TableSormland/ResponsiveTableEducationHoursSormland';
 import { CategoryChartSormland } from 'components/charts/ChartsSormland/CategoryChartSormland';
 
 
@@ -11,18 +15,19 @@ import { CategoryChartSormland } from 'components/charts/ChartsSormland/Category
 export const ResultsSormland  = () => {
     return (
         <div>
-            <article className="page-wrapper">
+        <article className="page-wrapper">
             <DropDown />
+            <ButtonRow />
                 <section className="card-wrapper">
                     <section className="card">
-                        <h1>Delprojket Sörmland</h1>
-                        <p>I Region Sörmland är det Vuxenutbildningen i Eskilstuna kommun som har drivit projektet. Totalt deltog fem elektronikföretag som vill satsa på kompetensförsörjning och utveckling av sin personal.</p>                
+                        <h1>Sammanställt resultat för hela projektet</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>                
                     </section>
                     <section className="image-card">
                     <SummaryCard
                         title="Resultat"
-                        numParticipants="Deltagare: 216"
-                        numCompanies="Företag: 5 st"
+                        numParticipants="Deltagare: 5383"
+                        numCompanies="Företag: 68st"
                         >
                         </SummaryCard>
                     </section>
@@ -31,7 +36,8 @@ export const ResultsSormland  = () => {
                 <section className="card-wrapper">
                     <section className="card">
                         <h1>Könsfördelning</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>                
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <ResponsiveTableGenderSormland />                
                     </section>
                     <section className="image-card">
                         <GenderChartSormland />
@@ -39,24 +45,26 @@ export const ResultsSormland  = () => {
                 </section>
                 <section className="card-wrapper">
                     <section className="card">
-                        <h1>Results</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>                
+                        <h1>Åldersförddelning</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> 
+                        <ResponsiveTableAgeSormland />               
                     </section>
                     <section className="image-card">
                         <AgeChartSormland />
                     </section>
                 </section>
-                <section className="card-wrapper">
-                <section className="card">
-                        <h1>Results</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>                
+                <section>
+                <section className="big-card">
+                        <h1>Utbildningstimmar</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <ResponsiveTableEducationHoursSormland />                
                     </section>
-                    <section className="image-card">
+                    <section className="bigimage-card">
                         <CategoryChartSormland />
                     </section>
                 </section>
-                </article>
             </article>
-        </div>
+        </article>
+    </div>
     )
 }

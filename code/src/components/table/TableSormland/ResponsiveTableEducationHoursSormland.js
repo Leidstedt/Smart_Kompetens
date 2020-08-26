@@ -1,8 +1,9 @@
 import React from 'react';
+import 'components/table/ResponsiveTable.css';
 
 
 
-export const ResponsiveTableEducationHours = () => {
+export const ResponsiveTableEducationHoursSormland = () => {
     return (
         <table> 
           <thead>
