@@ -18,13 +18,13 @@ export const ResponsiveTableGenderOstergotland = () => {
   <tbody>
     <tr>
       <td data-label="Kön">Kvinnor</td>
-      <td data-label="Antal">200</td>
-      <td data-label="%">100%</td>
+      <td data-label="Antal">240</td>
+      <td data-label="%">22%</td>
     </tr>
     <tr>
       <td data-label="Kön">Män</td>
-      <td data-label="Antal">200</td>
-      <td data-label="%">100%</td>
+      <td data-label="Antal">844</td>
+      <td data-label="%">78%</td>
     </tr>
   </tbody>
 </table>

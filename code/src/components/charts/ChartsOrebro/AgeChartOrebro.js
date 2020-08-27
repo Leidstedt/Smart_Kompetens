@@ -8,11 +8,11 @@ export const AgeChartOrebro = () => {
 
   const ageGroups = [
     ["Ålder", "Nr", { role: "style" }],
-    ["18-28", 15, "color: #3366cc"],
-    ["29-39", 30, "color: #3366cc"],
-    ["40-50", 120, "color: #3366cc"],
-    ["51-61", 10, "color: #3366cc"],
-    ["62 +", 15, "color: #3366cc"],
+    ["18-28", 283, "color: #3366cc"],
+    ["29-39", 476, "color: #3366cc"],
+    ["40-50", 616, "color: #3366cc"],
+    ["51-61", 824, "color: #3366cc"],
+    ["62 +", 122, "color: #3366cc"],
   ];
 
     return (

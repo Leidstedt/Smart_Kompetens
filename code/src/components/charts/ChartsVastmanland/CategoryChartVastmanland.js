@@ -7,13 +7,17 @@ import '../chart-style.css';
 export const CategoryChartVastmanland = () => {
 
   const training = [
-    ["Utbildning", "Timmar", { role: "style" }],
-        ["ERP och IT ", 10, "color: #3366cc"],
-        ["Horisontella principer ", 10, "color: #3366cc"],
-        ["Ledarskap ", 10, "color: #3366cc"],
-        ["Business intelligence", 10, "color: #3366cc"],
-        ["Yrkesutbildning ", 10, "color: #3366cc"]
-  ];
+      ["", "Timmar", { role: "style" }],
+      ["1", 6427, "color: #3366cc"],
+      ["2", 9830, "color: #3366cc"],
+      ["3", 1647, "color: #3366cc"],
+      ["4", 2943, "color: #3366cc"],
+      ["5", 1155, "color: #3366cc"],
+      ["6", 2257, "color: #3366cc"],
+      ["7", 2391, "color: #3366cc"],
+      ["8", 1069, "color: #3366cc"],
+      ["9", 943, "color: #3366cc"],
+    ];
   
       return (
         <div className="chart-wrapper">

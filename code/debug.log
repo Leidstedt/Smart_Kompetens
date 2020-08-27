@@ -1,0 +1,2 @@
+[0827/100131.030:ERROR:process_info.cc(329)] VirtualQueryEx: Åtkomst nekad. (0x5)
+[0827/100131.306:ERROR:process_info.cc(556)] ReadMemoryInfo failed

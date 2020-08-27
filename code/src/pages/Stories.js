@@ -6,7 +6,7 @@ export const Stories  = () => {
     return (
     <article className="page-wrapper">
             <section className="story-card-title">
-                <h1>Sagt om projketet</h1>
+                <h1>Sagt om projektet</h1>
             </section>
             <section className="story-card-wrapper">
                     <div>

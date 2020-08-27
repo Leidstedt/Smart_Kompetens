@@ -3,14 +3,17 @@ import { Chart } from "react-google-charts";
 import '../chart-style.css'
 
 export const CategoryChartUppsala = () => {
-
   const training = [
-    ["Utbildning", "Timmar", { role: "style" }],
-        ["ERP och IT ", 10, "color: #3366cc"],
-        ["Horisontella principer ", 10, "color: #3366cc"],
-        ["Ledarskap ", 10, "color: #3366cc"],
-        ["Business intelligence", 10, "color: #3366cc"],
-        ["Yrkesutbildning ", 10, "color: #3366cc"]
+    ["", "Timmar", { role: "style" }],
+    ["1", 1208, "color: #3366cc"],
+    ["2", 1891, "color: #3366cc"],
+    ["3", 0, "color: #3366cc"],
+    ["4", 609, "color: #3366cc"],
+    ["5", 1879, "color: #3366cc"],
+    ["6", 1605, "color: #3366cc"],
+    ["7", 1898, "color: #3366cc"],
+    ["8", 854, "color: #3366cc"],
+    ["9", 176, "color: #3366cc"],
   ];
   
       return (

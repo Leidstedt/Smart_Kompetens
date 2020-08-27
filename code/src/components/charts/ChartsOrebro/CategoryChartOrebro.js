@@ -5,12 +5,16 @@ import '../chart-style.css';
 export const CategoryChartOrebro = () => {
 
 const training = [
-  ["Utbildning", "Timmar", { role: "style" }],
-      ["ERP och IT ", 10, "color: #3366cc"],
-      ["Horisontella principer ", 10, "color: #3366cc"],
-      ["Ledarskap ", 10, "color: #3366cc"],
-      ["Business intelligence", 10, "color: #3366cc"],
-      ["Yrkesutbildning ", 10, "color: #3366cc"]
+  ["", "Timmar", { role: "style" }],
+  ["1", 5794, "color: #3366cc"],
+  ["2", 1485, "color: #3366cc"],
+  ["3", 1676, "color: #3366cc"],
+  ["4", 4626, "color: #3366cc"],
+  ["5", 7677, "color: #3366cc"],
+  ["6", 2355, "color: #3366cc"],
+  ["7", 350, "color: #3366cc"],
+  ["8", 2712, "color: #3366cc"],
+  ["9", 1539, "color: #3366cc"],
 ];
 
     return (

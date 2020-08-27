@@ -8,11 +8,11 @@ export const AgeChart = () => {
 
   const ageGroups = [
     ["Ålder", "Nr", { role: "style" }],
-    ["18-28", 15, "color: #3366cc"],
-    ["29-39", 30, "color: #3366cc"],
-    ["40-50", 120, "color: #3366cc"],
-    ["51-61", 10, "color: #3366cc"],
-    ["62 +", 15, "color: #3366cc"],
+    ["18-28", 639, "color: #3366cc"],
+    ["29-39", 1260, "color: #3366cc"],
+    ["40-50", 1589, "color: #3366cc"],
+    ["51-61", 1847, "color: #3366cc"],
+    ["62 +", 313, "color: #3366cc"],
   ];
 
     return (

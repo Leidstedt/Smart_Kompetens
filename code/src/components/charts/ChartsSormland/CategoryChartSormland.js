@@ -6,14 +6,18 @@ import '../chart-style.css'
 
 export const CategoryChartSormland = () => {
 
-  const training = [
-    ["Utbildning", "Timmar", { role: "style" }],
-        ["ERP och IT ", 10, "color: #3366cc"],
-        ["Horisontella principer ", 10, "color: #3366cc"],
-        ["Ledarskap ", 10, "color: #3366cc"],
-        ["Business intelligence", 10, "color: #3366cc"],
-        ["Yrkesutbildning ", 10, "color: #3366cc"]
-  ];
+    const training = [
+      ["", "Timmar", { role: "style" }],
+      ["1", 1509, "color: #3366cc"],
+      ["2", 1678, "color: #3366cc"],
+      ["3", 1029, "color: #3366cc"],
+      ["4", 69, "color: #3366cc"],
+      ["5", 63, "color: #3366cc"],
+      ["6", 1724, "color: #3366cc"],
+      ["7", 923, "color: #3366cc"],
+      ["8", 672, "color: #3366cc"],
+      ["9", 1353, "color: #3366cc"],
+    ];
   
       return (
         <div className="chart-wrapper">

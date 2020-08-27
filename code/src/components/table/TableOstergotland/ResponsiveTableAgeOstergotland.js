@@ -10,36 +10,36 @@ export const ResponsiveTableAgeOstergotland = () => {
     <thead>
       <tr>
         <th scope="col">Ålder</th>
-        <th scope="col">Antal</th>
-        <th scope="col">%</th>
+        <th scope="col">Kvinnor</th>
+        <th scope="col">Män</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td data-label="Ålderskategori">18-28</td>
-        <td data-label="Antal">200</td>
-        <td data-label="%">100%</td>
+        <td data-label="Kvinnor">39</td>
+        <td data-label="Män">114</td>
       </tr>
       <tr>
         <td data-label="Ålderskategori">29-39</td>
-        <td data-label="Antal">200</td>
-        <td data-label="%">100%</td>
+        <td data-label="Kvinnor">43</td>
+        <td data-label="Män">180</td>
       </tr>
       <tr>
         <td data-label="Ålderskategori">40-50</td>
-        <td data-label="Antal">200</td>
-        <td data-label="%">100%</td>
+        <td data-label="Kvinnor">48</td>
+        <td data-label="Män">237</td>
       </tr>
       <tr>
         <td data-label="Ålderskategori">51-61</td>
-        <td data-label="Antal">200</td>
-        <td data-label="%">100%</td>
+        <td data-label="Kvinnor">91</td>
+        <td data-label="Män">236</td>
       </tr>
       <tr>
         <td data-label="Ålderskategori">62+</td>
-        <td data-label="Antal">200</td>
-        <td data-label="%">100%</td>
-      </tr>
+        <td data-label="Kvinnor">19</td>
+        <td data-label="Män">50</td>      
+        </tr>
     </tbody>
   </table>
       );
