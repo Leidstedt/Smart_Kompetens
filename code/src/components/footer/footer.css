@@ -10,3 +10,14 @@
     width: 100%;
     flex-shrink: 0; 
 }
+
+.img {
+    height: 100%;
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 667px) {
+    .img {
+        display: none;
+    }
+  }
