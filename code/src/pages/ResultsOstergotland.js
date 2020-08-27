@@ -20,14 +20,14 @@ export const ResultsOstergotland  = () => {
             <ButtonRow />
                 <section className="card-wrapper">
                     <section className="card">
-                        <h1>Sammanställt resultat för hela projektet</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>                
+                        <h1>Sammanställt resultat för delprojekt Östergötland</h1>
+                        <p>Östergötlands delprojekt drevs av Skill, ett bolag som ägs av industriföretag, kommuner och Region Östergötland. I Östergötland medverkade åtta olika företag som tycker ser kompetensutveckling som en nyckel för att stärka både personalen och företaget i stort.</p>              
                     </section>
                     <section className="image-card">
                     <SummaryCard
                         title="Resultat"
-                        numParticipants="Deltagare: 5383"
-                        numCompanies="Företag: 68st"
+                        numParticipants="Deltagare: 1084"
+                        numCompanies="Företag: 8st"
                         >
                         </SummaryCard>
                     </section>
@@ -36,7 +36,6 @@ export const ResultsOstergotland  = () => {
                 <section className="card-wrapper">
                     <section className="card">
                         <h1>Könsfördelning</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                         <ResponsiveTableGenderOstergotland />                
                     </section>
                     <section className="image-card">
@@ -46,7 +45,6 @@ export const ResultsOstergotland  = () => {
                 <section className="card-wrapper">
                     <section className="card">
                         <h1>Åldersförddelning</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> 
                         <ResponsiveTableAgeOstergotland />               
                     </section>
                     <section className="image-card">
@@ -56,7 +54,6 @@ export const ResultsOstergotland  = () => {
                 <section>
                 <section className="big-card">
                         <h1>Utbildningstimmar</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                         <ResponsiveTableEducationHoursOstergotland />               
                     </section>
                     <section className="bigimage-card">

@@ -22,12 +22,12 @@ export const Results  = () => {
                 <section className="card-wrapper">
                     <section className="card">
                         <h1>Sammanställt resultat för hela projektet</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>                
+                        <p>Här presenteras projketets kvantitativa resultat. I projektets slutrapport finns reflektioner, måluppfyllelse och effektuppföljning.</p>                
                     </section>
                     <section className="image-card">
                     <SummaryCard
                         title="Resultat"
-                        numParticipants="Deltagare: 5383"
+                        numParticipants="Deltagare: 5648"
                         numCompanies="Företag: 68st"
                         >
                         </SummaryCard>
@@ -37,7 +37,6 @@ export const Results  = () => {
                 <section className="card-wrapper">
                     <section className="card">
                         <h1>Könsfördelning</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                         <ResponsiveTableGender />                
                     </section>
                     <section className="image-card">
@@ -47,7 +46,6 @@ export const Results  = () => {
                 <section className="card-wrapper">
                     <section className="card">
                         <h1>Åldersförddelning</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> 
                         <ResponsiveTableAge />               
                     </section>
                     <section className="image-card">
@@ -57,7 +55,6 @@ export const Results  = () => {
                 <section>
                 <section className="big-card">
                         <h1>Utbildningstimmar</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                         <ResponsiveTableEducationHours />                
                     </section>
                     <section className="bigimage-card">

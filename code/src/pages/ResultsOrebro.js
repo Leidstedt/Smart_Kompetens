@@ -22,14 +22,14 @@ export const ResultsOrebro  = () => {
                     <ButtonRow />
                         <section className="card-wrapper">
                             <section className="card">
-                                <h1>Sammanställt resultat för hela projektet</h1>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>                
+                                <h1>Sammanställt resultat för delprojekt Örebro</h1>
+                                <p>Region Örebro läns delprojekt drivs i huvudsak av Karlskoga kommun tillsammans med Yrkeshögskolan. Kommunen samverkar med ett 20-tal industriföretag från olika branscher i Örebro län som ser kompetensförsörjning som en viktig fråga inför framtiden.</p>
                             </section>
                             <section className="image-card">
                             <SummaryCard
                                 title="Resultat"
-                                numParticipants="Deltagare: 5383"
-                                numCompanies="Företag: 68st"
+                                numParticipants="Deltagare: 2321"
+                                numCompanies="Företag: 29st"
                                 >
                                 </SummaryCard>
                             </section>
@@ -38,7 +38,6 @@ export const ResultsOrebro  = () => {
                         <section className="card-wrapper">
                             <section className="card">
                                 <h1>Könsfördelning</h1>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                                 <ResponsiveTableGenderOrebro/>                
                             </section>
                             <section className="image-card">
@@ -48,7 +47,6 @@ export const ResultsOrebro  = () => {
                         <section className="card-wrapper">
                             <section className="card">
                                 <h1>Åldersförddelning</h1>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> 
                                 <ResponsiveTableAgeOrebro />               
                             </section>
                             <section className="image-card">
@@ -58,7 +56,6 @@ export const ResultsOrebro  = () => {
                         <section>
                         <section className="big-card">
                                 <h1>Utbildningstimmar</h1>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                                 <ResponsiveTableEducationHoursOrebro />                
                             </section>
                             <section className="bigimage-card">

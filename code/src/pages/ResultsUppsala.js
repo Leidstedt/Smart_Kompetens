@@ -21,14 +21,14 @@ export const ResultsUppsala  = () => {
             <ButtonRow />
                 <section className="card-wrapper">
                     <section className="card">
-                        <h1>Sammanställt resultat för hela projektet</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>                
+                        <h1>Sammanställt resultat för delprjekt Uppsala</h1>
+                        <p>I Region Uppsala deltar industriföretag med tillverkning inom gjuteri, snabbstål, lastbilspåbyggnader, mikromotorer samt mekanik och finmekanik. Totalt medverkar fem företag som alla ser kompetensförsörjning som en strategisk fråga inför framtiden.</p>
                     </section>
                     <section className="image-card">
                     <SummaryCard
                         title="Resultat"
-                        numParticipants="Deltagare: 5383"
-                        numCompanies="Företag: 68st"
+                        numParticipants="Deltagare: 415"
+                        numCompanies="Företag: 5st"
                         >
                         </SummaryCard>
                     </section>
@@ -37,7 +37,6 @@ export const ResultsUppsala  = () => {
                 <section className="card-wrapper">
                     <section className="card">
                         <h1>Könsfördelning</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                         <ResponsiveTableGenderUppsala />            
                     </section>
                     <section className="image-card">
@@ -47,7 +46,6 @@ export const ResultsUppsala  = () => {
                 <section className="card-wrapper">
                     <section className="card">
                         <h1>Åldersförddelning</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                         <ResponsiveTableAgeUppsala />               
                     </section>
                     <section className="image-card">
@@ -57,7 +55,6 @@ export const ResultsUppsala  = () => {
                 <section>
                 <section className="big-card">
                         <h1>Utbildningstimmar</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                         <ResponsiveTableEducationHoursUppsala />                
                     </section>
                     <section className="bigimage-card">

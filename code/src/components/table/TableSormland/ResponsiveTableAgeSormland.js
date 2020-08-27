@@ -17,28 +17,28 @@ export const ResponsiveTableAgeSormland = () => {
     <tbody>
       <tr>
         <td data-label="Ålderskategori">18-28</td>
-        <td data-label="Kvinnor">128</td>
-        <td data-label="Män">511</td>
+        <td data-label="Kvinnor">3</td>
+        <td data-label="Män">32</td>
       </tr>
       <tr>
         <td data-label="Ålderskategori">29-39</td>
-        <td data-label="Kvinnor">298</td>
-        <td data-label="Män">962</td>
+        <td data-label="Kvinnor">13</td>
+        <td data-label="Män">33</td>
       </tr>
       <tr>
         <td data-label="Ålderskategori">40-50</td>
-        <td data-label="Kvinnor">425</td>
-        <td data-label="Män">1164</td>
+        <td data-label="Kvinnor">18</td>
+        <td data-label="Män">38</td>
       </tr>
       <tr>
         <td data-label="Ålderskategori">51-61</td>
-        <td data-label="Kvinnor">448</td>
-        <td data-label="Män">1399</td>
+        <td data-label="Kvinnor">20</td>
+        <td data-label="Män">44</td>
       </tr>
       <tr>
         <td data-label="Ålderskategori">62+</td>
-        <td data-label="Kvinnor">63</td>
-        <td data-label="Män">250</td>      
+        <td data-label="Kvinnor">3</td>
+        <td data-label="Män">12</td>      
         </tr>
     </tbody>
   </table>
