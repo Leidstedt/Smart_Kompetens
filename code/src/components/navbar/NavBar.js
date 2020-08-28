@@ -14,7 +14,7 @@ export const NavBar = () => (
     <p className="nav-hover">Resultat</p>
   </Link>
   <Link to="/stories" exact>
-    <p>Sagt om projketet</p>
+    <p>Sagt om projektet</p>
   </Link>
 </Route>
 
@@ -26,7 +26,7 @@ export const NavBar = () => (
   </Link>
   <p className="current-page">Resultat</p>
   <Link to="/stories" exact>
-    <p>Sagt om projketet</p>
+    <p>Sagt om projektet</p>
   </Link>
 </Route>
 
@@ -39,7 +39,7 @@ export const NavBar = () => (
   <Link to="/results" exact>
     <p>Resultat</p>
   </Link>
-  <p className="current-page">Sagt om projketet</p>
+  <p className="current-page">Sagt om projektet</p>
 </Route>
 
   </header>
