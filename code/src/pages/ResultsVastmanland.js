@@ -1,6 +1,5 @@
 import React from 'react'
 import 'components/cards/card-style.css'
-import { SummaryCard } from 'components/cards/SummaryCard'
 import { DropDown } from 'components/dropdown/DropDown';
 import { ButtonRow } from 'components/dropdown/ButtonRow';
 import { ResponsiveTableGenderVastmanland } from 'components/table/TableVastmanland/ResponsiveTableGenderVastmanland';
@@ -25,12 +24,13 @@ export const ResultsVastmanland  = () => {
                         <p>Delprojektet drevs av Region Västmanland i samarbete med Competence, en organisation som arbetar med arbetsmarknads- och kompetensförsörjningsfrågor på både lokal och nationell nivå. I projektet deltog ett 20-tal industriföretag som ser värdet i att satsa på kompetensutveckling.</p>              
                     </section>
                     <section className="image-card">
-                    <SummaryCard
-                        title="Resultat"
-                        numParticipants="Deltagare: 1612"
-                        numCompanies="Företag: 32st"
-                        >
-                        </SummaryCard>
+                        <article className="summary-container">
+                                <div className="content-container">
+                                    <h1 className="summary-title">Resultat</h1>
+                                    <p>Antal deltagare: 1612</p>
+                                    <p>Antal företag: 32</p>
+                                </div>
+                            </article>
                     </section>
                 </section>
                 <article>

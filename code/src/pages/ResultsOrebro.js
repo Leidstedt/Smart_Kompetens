@@ -1,6 +1,5 @@
 import React from 'react'
 import 'components/cards/card-style.css'
-import { SummaryCard } from 'components/cards/SummaryCard'
 import { DropDown } from 'components/dropdown/DropDown';
 import { ButtonRow } from 'components/dropdown/ButtonRow';
 import { GenderChartOrebro } from 'components/charts/ChartsOrebro/GenderChartOrebro';
@@ -26,12 +25,13 @@ export const ResultsOrebro  = () => {
                                 <p>Region Örebro läns delprojekt drivs i huvudsak av Karlskoga kommun tillsammans med Yrkeshögskolan. Kommunen samverkar med ett 20-tal industriföretag från olika branscher i Örebro län som ser kompetensförsörjning som en viktig fråga inför framtiden.</p>
                             </section>
                             <section className="image-card">
-                            <SummaryCard
-                                title="Resultat"
-                                numParticipants="Deltagare: 2321"
-                                numCompanies="Företag: 29st"
-                                >
-                                </SummaryCard>
+                            <article className="summary-container">
+                                <div className="content-container">
+                                    <h1 className="summary-title">Resultat</h1>
+                                    <p>Antal deltagare: 2321</p>
+                                    <p>Antal företag: 29</p>
+                                </div>
+                            </article>
                             </section>
                         </section>
                         <article>

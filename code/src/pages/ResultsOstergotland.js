@@ -1,6 +1,5 @@
 import React from 'react'
 import 'components/cards/card-style.css'
-import { SummaryCard } from 'components/cards/SummaryCard'
 import { DropDown } from 'components/dropdown/DropDown';
 import { ButtonRow } from 'components/dropdown/ButtonRow';
 import { ResponsiveTableGenderOstergotland } from 'components/table/TableOstergotland/ResponsiveTableGenderOstergotland';
@@ -24,12 +23,13 @@ export const ResultsOstergotland  = () => {
                         <p>Östergötlands delprojekt drevs av Skill, ett bolag som ägs av industriföretag, kommuner och Region Östergötland. I Östergötland medverkade åtta olika företag som tycker ser kompetensutveckling som en nyckel för att stärka både personalen och företaget i stort.</p>              
                     </section>
                     <section className="image-card">
-                    <SummaryCard
-                        title="Resultat"
-                        numParticipants="Deltagare: 1084"
-                        numCompanies="Företag: 8st"
-                        >
-                        </SummaryCard>
+                        <article className="summary-container">
+                            <div className="content-container">
+                                <h1 className="summary-title">Resultat</h1>
+                                <p>Antal deltagare: 1084</p>
+                                <p>Antal företag: 8</p>
+                             </div>
+                        </article>
                     </section>
                 </section>
                 <article>

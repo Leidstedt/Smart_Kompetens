@@ -1,6 +1,5 @@
 import React from 'react'
 import 'components/cards/card-style.css'
-import { SummaryCard } from 'components/cards/SummaryCard'
 import { DropDown } from 'components/dropdown/DropDown';
 import { ButtonRow } from 'components/dropdown/ButtonRow';
 import { ResponsiveTableGenderSormland } from 'components/table/TableSormland/ResponsiveTableGenderSormland';
@@ -24,12 +23,13 @@ export const ResultsSormland  = () => {
                         <p>I Region Sörmland är det Vuxenutbildningen i Eskilstuna kommun som drivit projektet. Totalt deltar sex elektronikföretag som vill satsa på kompetensförsörjning och utveckling av sin personal.</p>
                     </section>
                     <section className="image-card">
-                    <SummaryCard
-                        title="Resultat"
-                        numParticipants="Deltagare: 216"
-                        numCompanies="Företag: 6st"
-                        >
-                        </SummaryCard>
+                        <article className="summary-container">
+                                <div className="content-container">
+                                    <h1 className="summary-title">Resultat</h1>
+                                    <p>Antal deltagare: 216</p>
+                                    <p>Antal företag: 6</p>
+                                </div>
+                            </article>
                     </section>
                 </section>
                 <article>

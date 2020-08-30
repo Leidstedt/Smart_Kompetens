@@ -1,6 +1,5 @@
 import React from 'react'
 import 'components/cards/card-style.css'
-import { SummaryCard } from 'components/cards/SummaryCard'
 import { DropDown } from 'components/dropdown/DropDown'
 import { ButtonRow } from 'components/dropdown/ButtonRow'
 import { ResponsiveTableGenderUppsala } from 'components/table/TableUppsala/ResponsiveTableGenderUppsala'
@@ -25,12 +24,13 @@ export const ResultsUppsala  = () => {
                         <p>I Region Uppsala deltar industriföretag med tillverkning inom gjuteri, snabbstål, lastbilspåbyggnader, mikromotorer samt mekanik och finmekanik. Totalt medverkar fem företag som alla ser kompetensförsörjning som en strategisk fråga inför framtiden.</p>
                     </section>
                     <section className="image-card">
-                    <SummaryCard
-                        title="Resultat"
-                        numParticipants="Deltagare: 415"
-                        numCompanies="Företag: 5st"
-                        >
-                        </SummaryCard>
+                        <article className="summary-container">
+                                <div className="content-container">
+                                    <h1 className="summary-title">Resultat</h1>
+                                    <p>Antal deltagare: 415</p>
+                                    <p>Antal företag: 5</p>
+                                </div>
+                        </article>
                     </section>
                 </section>
                 <article>
