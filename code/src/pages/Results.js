@@ -3,7 +3,6 @@ import { GenderChart } from 'components/charts/GenderChart';
 import { CategoryChart } from 'components/charts/CategoryChart';
 import 'components/cards/card-style.css';
 import { AgeChart } from 'components/charts/AgeChart'
-import { SummaryCard } from 'components/cards/SummaryCard'
 import { DropDown } from 'components/dropdown/DropDown';
 import { ResponsiveTableGender } from 'components/table/ResponsiveTableGender';
 import { ResponsiveTableAge } from 'components/table/ResponsiveTableAge';
@@ -25,12 +24,13 @@ export const Results  = () => {
                         <p>Här presenteras projketets kvantitativa resultat. I projektets slutrapport finns reflektioner, måluppfyllelse och effektuppföljning.</p>                
                     </section>
                     <section className="image-card">
-                    <SummaryCard
-                        title="Resultat"
-                        numParticipants="Deltagare: 5648"
-                        numCompanies="Företag: 68st"
-                        >
-                        </SummaryCard>
+                        <article className="summary-container">
+                             <div className="content-container">
+                            <h1 className="summary-title">Resultat</h1>
+                            <p>Antal deltagare: 5648</p>
+                            <p>Antal företag: 68</p>
+                            </div>
+                        </article> 
                     </section>
                 </section>
                 <article>

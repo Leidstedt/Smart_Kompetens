@@ -16,8 +16,7 @@
     flex-direction: column;
     margin: 20px;
     height: 100%;
-    background-color: white;
-    
+    background-color: white;    
 }
 
 .image-card {
@@ -69,7 +68,6 @@
     font-size: 25px;
     background-color:rgb(23,36,61);
     color: white;
-    
 }
 
 .story-card-wrapper {
@@ -93,6 +91,26 @@
     width: 100%;
     padding: 0px;
 }
+
+.summary-container {
+    box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0,0,0,.12);
+    border-radius: 6px;
+    background: #17243d;
+    margin: 20px;
+    width: 75%;
+  }
+  
+  .content-container {
+    padding: 20px;
+    color: white;
+  }
+  
+  .summary-title {
+    margin: 0;
+    font-size: 24px;
+    color: white;
+  }
+  
 
 /* MEDIA QUERIES MOBIL*/
 @media (max-width: 667px) {
