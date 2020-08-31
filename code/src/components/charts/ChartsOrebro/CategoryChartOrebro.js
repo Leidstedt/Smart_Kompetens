@@ -19,7 +19,7 @@ const training = [
 
     return (
       <div className="chart-wrapper">
-        <h1>Antal utbildningstimmar uppdelat i olika utbildningskategorier</h1>
+        <h3>Antal utbildningstimmar uppdelat i olika utbildningskategorier</h3>
         <Chart chartType="Bar" width="100%" height="100%" data={training}/>
       </div>
     );  

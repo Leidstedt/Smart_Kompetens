@@ -37,7 +37,7 @@ export const ResultsOrebro  = () => {
                         <article>
                         <section className="card-wrapper">
                             <section className="card">
-                                <h1>Könsfördelning</h1>
+                                <h3>Könsfördelning</h3>
                                 <ResponsiveTableGenderOrebro/>                
                             </section>
                             <section className="image-card">
@@ -46,7 +46,7 @@ export const ResultsOrebro  = () => {
                         </section>
                         <section className="card-wrapper">
                             <section className="card">
-                                <h1>Åldersförddelning</h1>
+                                <h3>Åldersförddelning</h3>
                                 <ResponsiveTableAgeOrebro />               
                             </section>
                             <section className="image-card">
@@ -55,7 +55,7 @@ export const ResultsOrebro  = () => {
                         </section>
                         <section>
                         <section className="big-card">
-                                <h1>Utbildningstimmar</h1>
+                                <h3>Utbildningstimmar</h3>
                                 <ResponsiveTableEducationHoursOrebro />                
                             </section>
                             <section className="bigimage-card">

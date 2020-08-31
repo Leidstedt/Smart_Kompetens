@@ -36,7 +36,7 @@ export const Results  = () => {
                 <article>
                 <section className="card-wrapper">
                     <section className="card">
-                        <h1>Könsfördelning</h1>
+                        <h3>Könsfördelning</h3>
                         <ResponsiveTableGender />                
                     </section>
                     <section className="image-card">
@@ -45,7 +45,7 @@ export const Results  = () => {
                 </section>
                 <section className="card-wrapper">
                     <section className="card">
-                        <h1>Åldersförddelning</h1>
+                        <h3>Åldersförddelning</h3>
                         <ResponsiveTableAge />               
                     </section>
                     <section className="image-card">
@@ -54,7 +54,7 @@ export const Results  = () => {
                 </section>
                 <section>
                 <section className="big-card">
-                        <h1>Utbildningstimmar</h1>
+                        <h3>Utbildningstimmar</h3>
                         <ResponsiveTableEducationHours />                
                     </section>
                     <section className="bigimage-card">

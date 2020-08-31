@@ -35,7 +35,7 @@ export const GenderChartUppsala = () => {
 
       return (
         <div>
-          <h1>Andel kvinnor respektive män som deltagit i delprojektet</h1>
+          <h3>Andel kvinnor respektive män som deltagit i delprojektet</h3>
           <Chart
             chartType="PieChart"
             data={[["Gender", "Weight"], ["Män", 360], ["Kvinnor", 55]]}

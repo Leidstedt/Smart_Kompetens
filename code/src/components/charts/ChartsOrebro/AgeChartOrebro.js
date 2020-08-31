@@ -17,7 +17,7 @@ export const AgeChartOrebro = () => {
 
     return (
       <div className="chart-wrapper">
-        <h1>Åldersfördelning för delprojektets deltagare</h1>
+        <h3>Åldersfördelning för delprojektets deltagare</h3>
         <Chart chartType="Bar" width="100%" height="100%" data={ageGroups}/> 
       </div>
     );
